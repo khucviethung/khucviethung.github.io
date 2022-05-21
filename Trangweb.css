@@ -95,7 +95,7 @@ input{
     text-transform: uppercase;
 }
 .left{
-    background-image: url(../images/traitim.gif);
+    background-image: url(traitim.gif);
     background-color:burlywood;
 }
 .right{
@@ -138,7 +138,7 @@ marquee{
 }
 .background{
     background-color:gray;
-    background-image:url(../images/hoaroi.gif);
+    background-image:url(hoaroi.gif);
 }
 .project td p{
     background-color:yellow;
