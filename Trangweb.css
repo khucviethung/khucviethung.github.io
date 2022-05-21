@@ -1,0 +1,188 @@
+ul{
+    list-style-type: none;
+    margin:0px;
+    padding: 10;
+    overflow: hidden;
+    background-color:chocolate;    
+}
+li{
+    float:left;
+}
+li a,.p1{
+    display: inline-block;
+    color: white;
+    text-align: center;
+    padding: 12px 30px;
+}
+li a:hover,.dropdown:hover .p1{
+    color:turquoise;
+}
+li.dropdown{
+    display: inline-block;
+}
+.dropdown-content{
+    display: none;
+    position:absolute;
+    background-color:tan;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rosybrown;
+    z-index:1;
+}
+.dropdown-content a{
+    color:black;    
+    padding:15px 80px;
+    text-decoration: none;
+    display: block;
+    text-align: left;
+}
+.dropdown-content a:hover{background-color:salmon;}
+.dropdown:hover .dropdown-content{
+    display: block;
+}
+input{
+    height: 40px;
+    width: 100%;
+    border: 1px solid whitesmoke;
+    box-sizing: border-box;
+    border-radius: 1px;
+    padding: 2px ;
+    outline: 1;
+    font-size: 15px;             
+}
+.p2{
+    background-color:yellowgreen;
+}
+.footer{
+    display:flex;
+    position: absolute;
+    font-weight: bold;
+    background-color:yellow;
+    width:100%;
+    height:20%;     
+    text-align: center;
+    justify-content: center;
+    flex-direction: column;
+    pointer-events: none;
+    cursor: default;
+    text-decoration: none;
+    color:black;
+}
+.a{
+    background-color: chocolate;
+    max-width: max-content;
+    padding: auto;
+}
+.b{
+    text-align: center;
+    width: 100%;
+    padding: 10px;
+}
+.c{
+    color: azure;
+    height: 50px;
+}
+.dau1{
+    float:left;
+    padding: 8px 30px;
+    
+}
+.dau2{
+    text-align: center;
+    width: 100%;
+    padding: 10px;
+    color:darkblue;
+    font-size:30px;
+    text-transform: uppercase;
+}
+.left{
+    background-image: url(../images/traitim.gif);
+    background-color:burlywood;
+}
+.right{
+    float:right;
+}
+p{
+    text-align: center;
+    color:red;
+}
+.project{
+    border-spacing: 50px;
+    margin: auto;
+}
+.project td{
+    border: 3px solid black;
+    background-color: white;
+}
+marquee{
+    color:red;
+    font-style:oblique; 
+    background-color:aquamarine;
+    max-width:100%;
+}
+.mid td:hover{
+    transform: scale(1.1);
+    box-shadow: rgba(240, 46, 170, 0.4) -5px 5px, rgba(240, 46, 170, 0.3) -10px 10px, rgba(240, 46, 170, 0.2) -15px 15px, rgba(240, 46, 170, 0.1) -20px 20px, rgba(240, 46, 170, 0.05) -25px 25px;            }
+.project td img{
+    width: 300px;
+    height: 300px;
+}
+.project a:hover{
+    color:yellowgreen;
+}
+.tonton{
+    float: right;
+}
+.tay{
+    padding-left: 40%;
+    background-image: none;
+}
+.background{
+    background-color:gray;
+    background-image:url(../images/hoaroi.gif);
+}
+.project td p{
+    background-color:yellow;
+    font-size:larger;
+    font-weight: bolder;
+}
+.menu .search > input {
+    
+    border-radius: 30px;
+}
+.menu .search-btn {
+    color:#fff;
+    font-size: 20px;
+    float:right; 
+    line-height: 46px;
+    padding: 0 20px;
+    border-radius: 0px 30px 30px 0px;
+}
+.menu,.mid{
+    font-size: larger;
+}
+.mid .project a   {
+
+text-decoration: none;
+
+}
+
+.mid  .project  a  span {
+    opacity: 0.6;
+}
+.menu  .search-btn:hover{
+    background-color: rgb(203, 236, 81);
+    cursor: pointer;
+}
+.menu .search-btn {
+    
+    color:white;
+    font-size: 20px;
+    float:right; 
+    line-height: 46px;
+    padding: 0 20px;
+    border-radius: 0px 30px 30px 0px;
+
+}
+body{
+    background-color:powderblue;
+}
